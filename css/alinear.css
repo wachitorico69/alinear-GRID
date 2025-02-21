@@ -5,6 +5,7 @@
     grid-template-rows: repeat(3, 200px);
 
     /*Alinear horizontal*/
+
     /*justify-items: start;*/
     /*justify-items: auto;*/
     /*justify-items: stretch;*/
@@ -12,8 +13,20 @@
     /*justify-items: end;*/
 
     /*Alinear verticalmente*/
+    
     /*align-items: start;*/
     align-items: center;
     /*align-items: end;*/
     /*align-items: stretch;*/
+}
+
+/*align self para trabjar con un único elemento*/
+.contenedor .item {
+    background: red;
+    /*width: 100%;*/
+    justify-self: stretch;
+    /*align-self: start;*/
+    /*align-self: center;*/
+    /*align-self: end;*/
+    align-self: stretch;
 }
