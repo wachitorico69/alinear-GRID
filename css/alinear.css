@@ -3,4 +3,17 @@
     grid-gap: 20px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 200px);
+
+    /*Alinear horizontal*/
+    /*justify-items: start;*/
+    /*justify-items: auto;*/
+    /*justify-items: stretch;*/
+    justify-items: center;
+    /*justify-items: end;*/
+
+    /*Alinear verticalmente*/
+    /*align-items: start;*/
+    align-items: center;
+    /*align-items: end;*/
+    /*align-items: stretch;*/
 }
