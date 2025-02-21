@@ -13,7 +13,7 @@
     /*justify-items: end;*/
 
     /*Alinear verticalmente*/
-    
+
     /*align-items: start;*/
     align-items: center;
     /*align-items: end;*/
@@ -22,7 +22,8 @@
 
 /*align self para trabjar con un único elemento*/
 .contenedor .item {
-    background: red;
+    background: rgb(255, 255, 255);
+    color: red;
     /*width: 100%;*/
     justify-self: stretch;
     /*align-self: start;*/
